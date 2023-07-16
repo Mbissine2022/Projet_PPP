@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ppp_covoiturage/BoutonUrgence.dart';
-//import 'package:ppp_covoiturage/osmhome.dart';
-
-//import 'Home.dart';
-//import 'osmhome.dart';
+import 'package:ppp_covoiturage/Home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const BoutonUrgence(),
+      home: const Home(),
     );
   }
 }
